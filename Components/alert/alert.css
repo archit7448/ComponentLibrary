@@ -3,7 +3,6 @@
     width: 40%;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
     box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.25);
     border-radius: 5px;
     min-width: 40rem;
@@ -39,7 +38,7 @@
 }
 
 
-.alert-Alert i{
+.alert-notification i{
     color: #FC9700;
 }
 
