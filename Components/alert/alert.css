@@ -30,19 +30,19 @@
 }    
 
 .alert-success i{
-    color: var(--color-success);
+    color: #60C060;
 }
 
 
 .alert-info i{
-    color: var(--color-info);
+    color: #4D90Fd;;
 }
 
 
 .alert-Alert i{
-    color: var(--color-Alert);
+    color: #FC9700;
 }
 
 .alert-error i{
-    color:var(--color-error);
+    color:red;
 }
