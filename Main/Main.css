@@ -5,30 +5,24 @@
     box-sizing: border-box;
     border: 0px;
 }
-
-
 :root {
     --colour-primary : #2ecc71;
     --colour-secondary: white;
+    --alert-success:#60C060;
+    --alert-info:#4D90Fd;
+    --alert-notification:#FC9700;
+    --alert-error:red;
 }
-
-
 html{
     font-size: 62.5%;
 }
-
-
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
 }
-
-
 a{
     text-decoration: none;
 }
-
-
 input,textarea,button{
     font-family: 'Roboto', sans-serif;
 } 

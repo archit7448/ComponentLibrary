@@ -9,12 +9,10 @@
     padding: 0.5em 1rem;
     margin: 1.6rem 1.6rem;
 }
-
 .alerts-bold-weight{
     font-size: 1.6rem;
     margin-left: 5px;
 }
-
 .alerts-para{
     font-size: 1.6rem;
     font-weight: 300;
@@ -27,21 +25,15 @@
 .alert i{
     font-size: 2.4rem;
 }    
-
 .alert-success i{
-    color: #60C060;
+    color:var(--alert-success);
 }
-
-
 .alert-info i{
-    color: #4D90Fd;;
+    color: var(--alert-info);
 }
-
-
 .alert-notification i{
-    color: #FC9700;
+    color: var(--alert-notification);
 }
-
 .alert-error i{
-    color:red;
+    color:var(--alert-error);
 }
