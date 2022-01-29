@@ -6,8 +6,11 @@
     border: 0px;
 }
 :root {
-    --colour-primary : #2ecc71;
-    --colour-secondary: white;
+    --color-primary : #2ecc71;
+    --color-secondary: white;
+    --color-primary-bright:rgb(57,255,20);
+    --color-black:#000000bf;
+    --color-grey :grey;
     --alert-success:#60C060;
     --alert-info:#4D90Fd;
     --alert-notification:#FC9700;
@@ -25,4 +28,5 @@ a{
 }
 input,textarea,button{
     font-family: 'Roboto', sans-serif;
+    font-size: inherit;
 } 

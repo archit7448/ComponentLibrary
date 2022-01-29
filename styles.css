@@ -1,1 +1,3 @@
-@import url(Main/Main.css);
+@import url(CSS/Main.css);
+@import url(Components/Badges/badges.css);
+@import url(Components/Buttons/buttons.css);

@@ -1,0 +1,84 @@
+.badges{
+    font-size: 3.2rem;
+    position: relative;
+}
+.badges span{
+    background-color: var(--alert-error);
+    font-size: 1.3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-weight: 900;
+    position: absolute;
+}
+.badge-text{
+    font-size: 2.5rem;
+}
+.badge-button{
+    font-size: 2.2rem;
+    padding: 0.5rem;
+    color: var(--color-secondary);
+    cursor: pointer;
+    background-color: var(--color-primary);
+    border-radius: 5px;
+}
+.badge-home span{
+        transform: translate(-40%,-30%);
+}
+.badge-text div{
+    display: inline-block;
+}
+.badge-text span{
+    transform: translate(-40%,-37%);
+}
+.badge-button span{
+    transform: translate(-40%,-60%);
+}
+.badge-bell span{
+    transform: translate(-42%,-35%);
+}
+.badge-cart span{
+    transform: translate(-42%,-35%);
+}
+/* Avatar Badges */
+.avatar-badge{
+     position: relative;
+     display: flex;
+     align-items: flex-end;
+}
+.avatar-badge-img{
+    width: 6rem;
+    height: 6rem;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.avatar-badge div{
+    background-color:var(--alert-success);
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    border-radius: 50%;
+    display: inline-block;
+    transform: translateX(270%);
+}
+.avatar-live div{
+    background-color: var(--alert-error);
+}
+.avatar-offline div{
+    background-color: var(--color-grey);
+}
+.avatar-notification div{
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.3rem;
+    background-color: var(--alert-error);
+    padding: 1rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-200%);
+}
+/* Avatar-Badge End */
