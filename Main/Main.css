@@ -15,6 +15,8 @@
     --alert-info:#4D90Fd;
     --alert-notification:#FC9700;
     --alert-error:red;
+    --color-background-secondary:#CBD5E1;
+    --color-box-shadow: rgba(0,0,0,0.25)
 }
 html{
     font-size: 62.5%;
