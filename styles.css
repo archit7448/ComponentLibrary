@@ -1,4 +1,5 @@
-
 @import url(Main/Main.css);
+@import url(Components/Badges/badges.css);
+@import url(Components/Buttons/buttons.css);
 @import url(Components/alert/alert.css);
 @import url(Components/avatar/avatar.css);
