@@ -6,8 +6,10 @@
     border: 0px;
 }
 :root {
-    --colour-primary : #2ecc71;
-    --colour-secondary: white;
+    --color-primary-green : #2ecc71;
+    --color-secondary-white: white;
+    --color-primary-green-bright:rgb(57,255,20);
+    --color-black:#000000bf;
     --alert-success:#60C060;
     --alert-info:#4D90Fd;
     --alert-notification:#FC9700;
