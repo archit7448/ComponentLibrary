@@ -6,12 +6,17 @@
     border: 0px;
 }
 :root {
-    --colour-primary : #2ecc71;
-    --colour-secondary: white;
+    --color-primary-green : #2ecc71;
+    --color-secondary-white: white;
+    --color-primary-green-bright:rgb(57,255,20);
+    --color-black:#000000bf;
+    --color-grey :grey;
     --alert-success:#60C060;
     --alert-info:#4D90Fd;
     --alert-notification:#FC9700;
     --alert-error:red;
+    --color-background-secondary:#CBD5E1;
+    --color-box-shadow: rgba(0,0,0,0.25)
 }
 html{
     font-size: 62.5%;
