@@ -1,0 +1,88 @@
+/* Basic Card */
+.card-wrapper{
+     width: 20vw;
+     min-width: 30rem; 
+     border: 1px solid var(--color-black);
+     margin: 2rem;
+     border-radius: 5px;
+}
+.card-wrapper img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px 5px 0 0;
+}
+/* Heading */
+.heading-one{
+    font-size: 2rem;
+    margin: 1rem ;
+}
+.heading-two{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+/* Button Design */
+.button{
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: var(--color-secondary-white);
+}
+.button-primary{
+    color: var(--color-secondary);
+    background-color: var(--color-primary-green);
+}
+.button-primary:hover{
+    background-color: var(--color-primary-green-bright);
+    transition: 0.1s;
+}
+.button-secondary{
+    border: 1px solid black;
+}
+.button-secondary:hover{
+      border: 1px solid var(--color-primary-green-bright);
+      color: var(--color-primary-green-bright);
+      transition: 0.1s;
+}
+.button-link{
+    color: var(--color-primary-green);
+}
+.card-button-wrapper .button{
+    font-size: 1.7rem;
+    margin: 1rem 0;
+}
+.card-button-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Card overlay with text */
+.card-overlay{
+    position: relative;
+}
+.card-overlay .heading-one{
+    position: absolute;
+    transform: translateY(-300%);  
+} 
+.card-overlay .heading-two{
+    position: absolute;
+    transform: translateY(-200%);
+}
+/* Card Vertical */
+.card-vertical-content{
+    display: flex;
+}
+.card-vertical-content img{
+       width: 100px;
+       border-radius: 5px 0 0 0;
+}
+/* Card with Box-shadow */
+.card-box-shadow{
+    border: 0px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25),-2px -2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+/* Card With Dismiss*/
+.card-button-dismiss{
+    margin-left: auto;
+    margin: 1rem;
+    font-size: 2rem;
+    background-color: var(--color-secondary-white);
+}
