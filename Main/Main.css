@@ -30,4 +30,5 @@ a{
 }
 input,textarea,button{
     font-family: 'Roboto', sans-serif;
+    font-size: inherit;
 } 
