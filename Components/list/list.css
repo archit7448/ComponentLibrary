@@ -1,0 +1,30 @@
+.list{
+    border: 2px solid var(--color-black);
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.list-item{
+    cursor: pointer;
+    margin: 1rem 0;
+}
+.list-item:hover{
+    color: var(--color-neon-blue);
+}
+.stacked-child{
+ display: flex;
+ align-items: center;
+ padding: 1rem;  
+}
+.stacked-child img{
+    width: 5rem;
+    height:5rem;
+}
+.stacked-para{
+    font-size: 1.5rem;
+}
+.stacked-child button{
+    background-color:var(--color-secondary-white);
+    cursor: pointer;
+}

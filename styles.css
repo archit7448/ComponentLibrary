@@ -6,3 +6,9 @@
 @import url(Components/Buttons/buttons.css);
 @import url(Components/alert/alert.css);
 @import url(Components/avatar/avatar.css);
+@import url(Main/Home.css);
+@import url(Main/documentation.css);
+@import url(Components/list/list.css);
+@import url(Components/modal/modal.css);
+@import url(Components/text-utilities/text-utilities.css);
+@import url(Components/navigation/navigation.css);

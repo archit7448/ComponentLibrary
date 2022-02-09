@@ -22,7 +22,7 @@
     padding: 0.5rem;
     color: var(--color-secondary-white);
     cursor: pointer;
-    background-color: var(--color-primary-green);
+    background-color: var(--color-primary-blue);
     border-radius: 5px;
 }
 .badge-home span{

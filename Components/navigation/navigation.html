@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mindify| input</title>
+    <title>Mindify | Navigation</title>
     <link rel="stylesheet" href="/styles.css" />
     <script
       src="https://kit.fontawesome.com/cb9e475ff7.js"
@@ -75,53 +75,27 @@
           </ul>
         </div>
         <div class="aside-wrapper">
-          <h1 class="heading">INPUT</h1>
+          <h1 class="heading">NAVIGATION</h1>
           <div class="flex-col copy">
-            <div class="input input-text-area-wrapper">
-              <textarea
-                placeholder="enter the message"
-                class="input-area"
-              ></textarea>
-              <button class="button button-primary">SEND</button>
-            </div>
-            <div class="class-wrapper wrapper-input-text-area"></div>
-            <section class="form-wrapper validation">
-              <form class="form">
-                <input
-                  type="text"
-                  name="email-id"
-                  placeholder="email-id"
-                  class="form-input"
-                />
-                <input
-                  type="text"
-                  name="password"
-                  placeholder="password"
-                  class="form-input"
-                />
-                <button class="button button-primary">SIGN IN</button>
-              </form>
-            </section>
-            <div class="class-wrapper wrapper-validation"></div>
-            <section class="form-wrapper wrong-validation">
-              <form class="form">
-                <h1 class="form-heading wrong">Wrong Information!</h1>
-                <input
-                  type="text"
-                  name="email-id"
-                  placeholder="email-id"
-                  class="form-input form-wrong"
-                />
-                <input
-                  type="text"
-                  name="password"
-                  placeholder="password"
-                  class="form-input form-wrong"
-                />
-                <button class="button button-primary">SIGN IN</button>
-              </form>
-            </section>
-            <div class="class-wrapper wrapper-wrong-validation"></div>
+            <header class="navigation navigation-component">
+                <a href="#"><img src="/assets/logo.svg" alt="logo">MindifyCart</a>
+                <div class="search">
+                    <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                    <button type="submit" class="seacrhButton">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <div class="login-cart">
+                    <button class="badges badge-cart">
+                        <i class="fas fa-shopping-cart"></i><span>10</span>
+                    </button>
+                    <button class="badges badge-cart">
+                        <i class="far fa-heart"></i><span>10</span>
+                    </button>
+                    <button class="button button-primary">LOGIN</button>
+                </div>
+            </header>
+            <div class="class-wrapper class-navbar"></div>
           </div>
         </div>
       </section>

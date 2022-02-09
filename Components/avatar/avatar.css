@@ -5,24 +5,24 @@
     object-fit: cover;
 }
 .avatar-xlg{
+    width: 15rem;
+    height: 15rem;
+}
+.avatar-lg{
     width: 12rem;
     height: 12rem;
 }
-.avatar-lg{
+.avatar-md{
     width: 10rem;
     height: 10rem;
 }
-.avatar-md{
-    width: 7rem;
-    height: 7rem;
-}
 .avatar-sml{
-     width: 4rem;
-     height: 4rem;
+     width: 7rem;
+     height: 7rem;
 }
 .avatar-xsml{
-    width:2rem;
-    height: 2rem;
+    width:4rem;
+    height:4rem;
 }
 .avatar-img{
     width: 100%;
