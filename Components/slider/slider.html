@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mindify-Button</title>
+    <title>Mindify | Slider</title>
     <link rel="stylesheet" href="/styles.css" />
     <script
       src="https://kit.fontawesome.com/cb9e475ff7.js"
@@ -46,10 +46,14 @@
             <li><a href="/Components/input/input.html">INPUT</a></li>
             <li><a href="/Components/list/list.html">LIST</a></li>
             <li><a href="/Components/modal/modal.html">MODAL</a></li>
-            <li><a href="/Components/text-utilities/text-utilities.html">TEXT-UTILITIES</a></li>
-            <li><a href="/Components/navigation/navigation.html">NAVIGATION</a></li>
+            <li>
+              <a href="/Components/text-utilities/text-utilities.html"
+                >TEXT-UTILITIES</a
+              >
+              <li><a href="/Components/navigation/navigation.html">NAVIGATION</a>
+            </li>
             <li><a href="/Components/ratings/ratings.html">RATINGS</a></li>
-            <li><a href="/Components/slider/slider.html">SLIDER</a></li>  
+            <li><a href="/Components/slider/slider.html">SLIDER</a></li>
           </ul>
         </nav>
         <div class="sidebar-wrapper">
@@ -64,29 +68,20 @@
             <li><a href="/Components/input/input.html">INPUT</a></li>
             <li><a href="/Components/list/list.html">LIST</a></li>
             <li><a href="/Components/modal/modal.html">MODAL</a></li>
-            <li><a href="/Components/text-utilities/text-utilities.html">TEXT-UTILITIES</a></li>
-            <li><a href="/Components/navigation/navigation.html">NAVIGATION</a></li>
+            <li><a href="/Components/text-utilities/text-utilities.html">TEXT-UTILITIES</a>
+            <li><a href="/Components/navigation/navigation.html">NAVIGATION</a>
+            </li>
             <li><a href="/Components/ratings/ratings.html">RATINGS</a></li>
-            <li><a href="/Components/slider/slider.html">SLIDER</a></li>  
+            <li><a href="/Components/slider/slider.html">SLIDER</a></li>
           </ul>
         </div>
         <div class="aside-wrapper">
-          <h1 class="heading">BUTTON</h1>
+          <h1 class="heading">SLIDER</h1>
           <div class="flex-col copy">
-            <button class="button button-primary">Primary Button</button>
-            <div class="class-wrapper wrapper-button-primary"></div>
-            <button class="button button-secondary">Secondary Button</button>
-            <div class="class-wrapper wrapper-button-secondary"></div>
-            <button class="button button-link">Link Button</button>
-            <div class="class-wrapper wrapper-button-link"></div>
-            <button class="button button-icon">
-              <i class="fas fa-download"></i>
-            </button>
-            <div class="class-wrapper wrapper-button-icon"></div>
-            <button class="button button-floating-action">
-              <i class="fas fa-download"></i>
-            </button>
-            <div class="class-wrapper wrapper-button-floating-action"></div>
+             <div class="slider sliderContainer">
+                 <input type="range" min="1" max="100" value="50" class="slider" id="myrange">
+             </div>
+             <div class="class-wrapper wrapper-slider"></div>
           </div>
         </div>
       </section>
