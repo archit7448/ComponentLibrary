@@ -6,17 +6,21 @@
     border: 0px;
 }
 :root {
-    --color-primary-green : #2ecc71;
+    --color-primary-blue : #1F51F1;
+    --color-neon-blue:#0096FF   ;
     --color-secondary-white: white;
     --color-primary-green-bright:rgb(57,255,20);
-    --color-black:#000000bf;
+    --color-black:black;
     --color-grey :grey;
     --alert-success:#60C060;
     --alert-info:#4D90Fd;
     --alert-notification:#FC9700;
     --alert-error:red;
     --color-background-secondary:#CBD5E1;
-    --color-box-shadow: rgba(0,0,0,0.25)
+    --color-box-shadow: rgba(0,0,0,0.25);
+    --color-background-hamburger : rgba(0, 0, 0,0.8);
+    --color-grey: rgba(107,124,147);
+    --color-grey-lighter: rgba(107,124,147,0.7);
 }
 html{
     font-size: 62.5%;
@@ -32,3 +36,14 @@ input,textarea,button{
     font-family: 'Roboto', sans-serif;
     font-size: inherit;
 } 
+
+@media only screen and (max-width:900px){
+    html{
+          font-size: 55%;       
+    }
+}
+@media only screen and (max-width:500px){
+    html{
+          font-size: 52%;       
+    }
+}
