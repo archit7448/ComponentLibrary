@@ -1,0 +1,10 @@
+.modal-basic{
+    box-shadow: 1px 1px 2px 2px var(--color-box-shadow);
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+.modal-basic .button-cancel{
+    margin-left: 95%;
+    cursor: pointer;
+    background-color: var(--color-secondary-white);
+}
