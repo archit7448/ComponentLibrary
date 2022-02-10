@@ -5,35 +5,32 @@
     background-color: var(--color-secondary-white);
 }
 .button-primary{
-    color: var(--color-secondary);
-    background-color: var(--color-primary-green);
+    color: var(--color-secondary-white);
+    background-color: var(--color-primary-blue);
 }
 .button-primary:hover{
-    background-color: var(--color-primary-green-bright);
+    background-color: var(--color-neon-blue);
     transition: 0.1s;
 }
 .button-secondary{
-    border: 1px solid black;
+    border: 1px solid var(--color-black);
 }
 .button-secondary:hover{
-      border: 1px solid var(--color-primary-green-bright);
-      color: var(--color-primary-green-bright);
+      border: 1px solid var(--color-neon-blue);
+      color: var(--color-neon-blue);
       transition: 0.1s;
 }
 .button-link{
-    color: var(--color-primary-green);
+    color: var(--color-neon-blue);
 }
 .button-icon{
     font-size: 2rem;
-    color: grey;
+    color:var(--color-grey);
 }
 .button-icon:hover{
-    color: black;
+    color: var(--color-black);
 }
 .button-floating-action{
     font-size: 2rem;
-    position: fixed;
-    right: 1rem;
-    bottom: 1rem;
 }
 
