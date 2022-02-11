@@ -47,7 +47,7 @@ li a:hover{
 }
 .class-wrapper{
     height: auto;
-    width:50rem;
+    width:fit-content;
     border-radius: 5px;
     padding: 2rem;
     margin: 1rem;

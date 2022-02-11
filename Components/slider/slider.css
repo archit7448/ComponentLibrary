@@ -1,0 +1,8 @@
+.sliderContainer{
+    width: 100%;
+}
+.slider{
+    width: 30rem;
+    cursor: pointer;
+    color: var(--color-neon-blue);
+}

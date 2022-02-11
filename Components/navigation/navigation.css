@@ -1,0 +1,44 @@
+.navigation-component{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    border: 2px solid var(--color-grey);  
+    padding: 1rem;
+}
+.login-cart{
+    display: flex;
+}
+.navigation-component a{
+    font-size: 3rem;
+    color: var(--color-neon-blue);
+}
+.navigation-component img{
+    height: 4rem;
+}
+.login-cart .badges{
+    font-size: 3rem;
+    background-color: var(--color-secondary-white);
+    cursor: pointer;
+}
+.search{
+    border: 2px solid var(--color-neon-blue);
+    padding: 5px;
+    border-radius: 5px;
+}
+.search i{
+    height: 3rem;
+    font-size: 2rem;
+    color: var(--color-neon-blue);
+    background-color: var(--color-secondary-white);
+    cursor: pointer;
+    margin: 0;
+}
+.login-cart{
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+}
+.search input:focus{
+    outline: none;
+}
