@@ -1,7 +1,6 @@
 /* Basic Card */
 .card-wrapper{
-     width: 20vw;
-     min-width: 30rem; 
+     width: 25rem; 
      border: 1px solid var(--color-black);
      margin: 2rem;
      border-radius: 5px;
