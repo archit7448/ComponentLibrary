@@ -230,4 +230,3 @@ Slider types:
 
 ---
 
->>>>>>> 592adba605fafb01e4ea64dc3939441f55895f5f
