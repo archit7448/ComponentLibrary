@@ -10,4 +10,6 @@
 @import url(/Components/text-utilities/text-utilities.css);
 @import url(/Components/navigation/navigation.css);
 @import url(/Components/ratings/ratings.css);
+@import url(/Components/grid/grid.css);
+@import url(/Components/toast/toast.css);
 @import url(/Main/Main.css);
